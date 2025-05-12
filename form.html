@@ -1,0 +1,137 @@
+<html>
+  <head>
+   <link rel="stylesheet" href="form.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  </head>
+  
+  <body>
+      <div class="header">
+        <a href="profile.html" class="logo">i-Ndo</a>
+          <div class="header-right">
+            <a href="index.html">Home</a>
+            <div class="dropdown">
+              <button class="dropbtn"><a href="iphone.html">iPhone</a></button>
+                <div class="dropdown-content">
+                  <a href="iphone15pro.html">iPhone 15 Pro</a>
+                  <a href="iphone15.html">iPhone 15</a>
+                  <a href="iphonese.html">iPhone SE</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+              <button class="dropbtn"><a href="ipad.html">iPad</a></button>
+                <div class="dropdown-content">
+                  <a href="ipadpro.html">iPad Pro</a>
+                  <a href="ipadair.html">iPad Air</a>
+                  <a href="ipadmini.html">iPad Mini</a>
+                </div>
+            </div>
+
+
+            <div class="dropdown">
+              <button class="dropbtn"><a href="mac.html">Mac</a></button>
+                <div class="dropdown-content">
+                  <a href="macpro.html">Macbook Pro</a>
+                  <a href="macair.html">Macbook Air</a>
+                  <a href="macmini.html">Mac Mini</a>
+                  <a href="imac.html">iMac</a>
+                </div>
+            </div>
+
+            <a class="active" href="form.html">Formulir Pembelian</a>
+          </div>
+      </div>
+      </div> 
+
+      <div class="rowform">
+  <div class="col-75">
+    <div class="containerform">
+      <form action="/action_page.php">
+
+        <div class="rowform">
+          <div class="col-25">
+            <h3>Billing Address</h3>
+            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Gregorius Fernando Notosetiawan">
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="text" id="email" name="email" placeholder="fernando@example.com">
+            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+            <textarea id="adr" name="address" form="usrform" placeholder="Enter address here..."></textarea>
+            <label for="city"><i class="fa fa-institution"></i> City</label>
+            <input type="text" id="city" name="city" placeholder="Malang">
+
+            <div class="rowform">
+              <div class="col-50">
+                <label for="state">State</label>
+                <input type="text" id="state" name="state" placeholder="Indonesia">
+              </div>
+              <div class="col-50">
+                <label for="zip">Zip</label>
+                <input type="text" id="zip" name="zip" placeholder="10001">
+              </div>
+          </div>
+          </div>
+
+          <div class="col-25">
+            <h3>Payment</h3>
+            <label for="fname">Select Cards</label>
+            
+            <select name="cars" id="cars">
+              <option value="VISA"></i>VISA</option>
+              <option value="AMEX"></i>AMEX</option>
+              <option value="MasterCard"></i>MasterCard</option>
+              <option value="Discover">Discover</option>
+            </select>
+      
+            <div class="icon-container">
+              <i class="fa fa-cc-visa" style="color:navy;"></i>
+              <i class="fa fa-cc-amex" style="color:blue;"></i>
+              <i class="fa fa-cc-mastercard" style="color:red;"></i>
+              <i class="fa fa-cc-discover" style="color:orange;"></i>
+            </div>
+            
+            <label for="cname">Name on Card</label>
+            <input type="text" id="cname" name="cardname" placeholder="Gregorius Fernando Notosetiawan">
+            <label for="ccnum">Credit card number</label>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+            <label for="expmonth">Exp Month</label>
+            <input type="text" id="expmonth" name="expmonth" placeholder="September">
+
+            <div class="rowform">
+              <div class="col-50">
+                <label for="expyear">Exp Year</label>
+                <input type="text" id="expyear" name="expyear" placeholder="2018">
+              </div>
+              <div class="col-50">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="352">
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <label>
+          <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+        </label>
+        <input type="submit" value="Continue to checkout" class="btn">
+      </form>
+    </div>
+    
+     <div id="contain-footer">
+         <div id="column-footer">
+         </div>
+         <footer id="footer"><p style="margin-top: 15px">Copyright &copy; 2023 Gregorius Fernando Notosetiawan</p></footer>
+      </div>
+      
+  </div>
+
+  
+
+     
+
+  </body>
+</html>
